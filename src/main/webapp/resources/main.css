@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+table{
+	width: 700px;
+	border: 1.5px solid blue;
+	margin: 50px;
+	padding: 20px;
+	border-collapse:collapse;
+	text-align: center;
+}
+
+input[type=text]{
+	width:300px;
+}
+.label{
+	text-align:right;
+	vertical-align:top;
+}
+.control{
+	margin-left:10px;
+}
+thead{
+	background:darkgray;
+	color : yellow;
+}
+
+tbody tr:nth-child(even){
+	background:aliceblue;
+}
+
+
+td{
+	border-bottom:1px solid gray;
+}
+
+.error {
+	font-size: small;
+	color: red;
+	margin-left: 10px;
+}
+
+.logoutCenter{
+	align-self:center;
+	align-items: center;
+}
